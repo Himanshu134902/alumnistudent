@@ -1,0 +1,48 @@
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# Testing
+/coverage
+
+# Next.js build outputs
+/.next/
+/out/
+
+# Build Output (Vercel)
+.vercel
+
+# Build Output (Netlify)
+.netlify
+
+# Production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local Environment Variables
+.env*.local
+
+# Log files
+*.log
+
+# Other diagnostic files (optional)
+# *.tsbuildinfo
+
+# IDE config
+.idea
+.vscode/*
+!.vscode/settings.json
